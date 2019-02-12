@@ -3,7 +3,8 @@ import AppBar from '@material-ui/core/AppBar';
 
 function Title(){
 const titleStyles = {
-  textAlign: 'center'
+  textAlign: 'center',
+  color: 'tomato'
 }
 
   return (
