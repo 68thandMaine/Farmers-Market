@@ -1,5 +1,7 @@
 import React from 'react'
 import AppBar from '@material-ui/core/AppBar';
+import { Link } from 'react-router-dom';
+
 
 function Title(){
 const titleStyles = {
@@ -8,9 +10,15 @@ const titleStyles = {
 }
 
   return (
+    <div>
      <AppBar position="static" color="default" style={titleStyles}>
       <h1>Avery's Organics</h1>
+        <Link to="/MonthlyProduce">Months</Link>
+          <Link to="/WeekDay">Day</Link>
+        <Link to="/About">About Us</Link>
       </AppBar>
+
+    </div>
   )
 }
 
